@@ -6,6 +6,7 @@ import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ChartBestSalesComponent } from './dashboard/chart-best-sales/chart-best-sales.component';
 import { ChartSalesSummaryComponent } from './dashboard/chart-sales-summary/chart-sales-summary.component';
+import { AppRoutingModule } from './/app-routing.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ChartSalesSummaryComponent } from './dashboard/chart-sales-summary/char
     ChartSalesSummaryComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
